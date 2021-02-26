@@ -1,0 +1,177 @@
+body{
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #fff;
+    color: #243a6f; 
+}
+
+a{
+    color: inherit;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+/* Main */
+
+#main{
+
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 10px;
+    align-items: center;
+    background-color: #a1d1df;
+    height: 94vh;
+}
+
+.wbanner-image{
+    margin-top: -15px;
+}
+
+
+.first-main{
+    margin-top: 100px;
+}
+
+.first-main h1{
+    color: #b888ff;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.first-main h1 .discount{
+    color: #fbb419;
+}
+
+.first-main h2 span {
+    color: #253b70;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.btn{
+    background-color: #fc7c7c !important;
+    padding: 10px 15px !important;
+    color: #fff !important;
+    margin-top: 3rem;
+    border: none !important;
+    font-size: 20px !important;
+}
+
+.advert-box{
+
+    color: #fff;
+    height: 27rem;
+    border-radius: 1.6rem;
+    padding: 1.6rem;
+    margin-left: 10px;
+}
+
+
+.advert-box1{
+    background-color: #fc7c7c;
+}
+
+.advert-box2{
+    background-color: #b888ff;
+}
+.advert-box3{
+    background-color: #e5bc00;
+}
+
+.advert-box .content{
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translate(0, -50%);
+}
+
+#products{
+    background-color: #fff;
+    padding: 20px;
+
+}
+
+#products h1{
+
+    color:#253b70;
+}
+
+.rating{
+    color: #43b3d9;
+}
+
+.product-footer .price{
+    color: #253b70;
+}
+
+#main-footer{
+    padding: 20px;
+    background-color:#3f3f3f;;
+    color: #d5d5d5;
+}
+
+.product-banner .cover{
+    background-color: #b888ff;
+    padding: 10px;
+
+}
+
+#products a{
+    color: black;
+    text-decoration: none;
+}
+
+#products span{
+    padding: 5px;
+    color: #ff7c9c;
+    font-size: 20px;
+}
+
+.shoe{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.product-header .product-footer{
+    padding: 10px 0;
+}
+
+.cover{
+    margin-top: 15px;
+}
+
+.product-banner{
+    padding: 10px;
+    position: relative;
+}
+
+.product-banner .cover h1{
+    position: absolute;
+    top: 20%;
+    left: 40px;
+}
+
+.product-banner .cover h2{
+    position: absolute;
+    top: 30%;
+    left: 40px;
+}
+
+.product-banner .cover .btn{
+    position: absolute;
+    top: 40%;
+    left: 100px;
+}
+
+.testimonials{
+    padding: 15px;
+}
+
