@@ -1,0 +1,26 @@
+{
+    "items": [
+        {
+           "sys": { "id": "1" },
+            "fields": {
+                "title": "Yellow polo",
+                "price":  50,
+                "image": {"fields": { "file": {
+                "url": "./images/yellow1.jpg" }}
+                }
+            }
+        },
+
+        {
+            "sys": { "id": "2" },
+             "fields": {
+                 "title": "Black polo",
+                 "price":  50,
+                 "image": {"fields": { "file": {
+                 "url": "./images/product1.png" }}
+                 }
+             }
+         },
+
+
+        

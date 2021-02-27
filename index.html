@@ -37,9 +37,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#account">Account</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
-                        </li>
+                        <div class="cart-btn">
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i></a>
+                            </li>
+                            <div class="cart-items">0</div>
+                        </div>  
                     </ul>
                 </div>
             </div>
@@ -54,8 +57,8 @@
                 <div class="col-md-6 first-main">
                     <h1><span class="discount">70%</span> SALES OFF</h1>
                     <h2>
-                        <span>Summer Vibes</span>
-                        <span>Mode on</span>
+                        <span class="sum">Summer Vibes</span>
+                        <span class="sum">Mode on</span>
                     </h2>
             <a href=""><button class="btn btn-large btn-warning special-btn">Shop Now</button></a>
                 </div>
@@ -66,30 +69,29 @@
         </div>
     </section>
 
-    <!---->
-
    <section class="advert">
        <div class="container advert-center">
            <div class="row advert-box">
                <div class="col-md-4 advert-box1">
                    <img src="images/advert1.png" alt="" class="img-fluid">
                    <div class="content">
-                    <h2>Girls Clothing</h2>
-                    <h4>Worlds best brands</h4>
+                        <h2>Girls Clothing</h2>
+                        <h4>Worlds best brands</h4>
                    </div>   
-               </div>
-               <div class="col-md-4 advert-box2">
-                <img src="images/advert2.png" alt="" class="img-fluid">
-                <div class="content">
-                    <h2>Girls Clothing</h2>
-                    <h4>Worlds best brands</h4>
                 </div>
-            </div>
-            <div class="col-md-4 advert-box3">
-                <img src="images/advert1.png" alt="" class="img-fluid">
-                <div class="content">
-                    <h2>Girls Clothing</h2>
-                    <h4>Worlds best brands</h4>
+               <div class="col-md-4 advert-box2">
+                    <img src="images/advert2.png" alt="" class="img-fluid">
+                    <div class="content">
+                        <h2>Girls Clothing</h2>
+                        <h4>Worlds best brands</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 advert-box3">
+                    <img src="images/advert1.png" alt="" class="img-fluid">
+                    <div class="content">
+                        <h2>Girls Clothing</h2>
+                        <h4>Worlds best brands</h4>
+                    </div>
                 </div>
            </div>
        </div>
@@ -105,91 +107,71 @@
    </div>
 
    <section id="products">
-       <div class="container text-center">
+       <div class="container text-center ">
            <div class="row">
                <div class="col-md-3">
-                   <div class="product-header">
-                       <img src="images/yellow1.jpg" alt="" class="img-fluid">
-                       <span><i class="fa fa-heart"></i></span>
-                       <span><i class="fa fa-shopping-cart"></i></span>
-                       <span><i class="fa fa-search"></i></span>
-                   </div>
-                   <div class="product-footer">
-                       <a href=""><h4>Boys T-shirt</h4></a>
-                       <div class="rating">
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-						<i class="fa fa-star"></i>
-					    </div>
+                   <div class="product-center image__container">
+                      <span> <img src="images/yellow1.jpg" alt="" class="img-fluid" width="150px"></span>
                         <h4 class="price">$50</h4>
-                    <a href="cart.html"><button class="btn btn-primary btn-small">Add to Cart</button></a>   
+                    <a href="cart.html"><button class="btn btn-primary addToCart"data-id= ${id}>Add to Cart</button></a>   
                    </div>
                </div>
                <div class="col-md-3">
-                <div class="product-header">
-                    <img src="images/product1.png" alt="">
-                    <span><i class="fa fa-heart"></i></span>
-                    <span><i class="fa fa-shopping-cart"></i></span>
-                    <span><i class="fa fa-search"></i></span>
-                </div>
-                <div class="product-footer">
-                    <a href=""><h4>Boys T-shirt</h4></a>
-                    <div class="rating">
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     </div>
+                <div class="product-center">
+                    <img src="images/yellow1.jpg" alt="" class="img-fluid" width="150px">
                      <h4 class="price">$50</h4>
-                     <a href="cart.html"><button class="btn btn-primary">Add to Cart</button></a>  
-                </div>
-                
-            </div>
-            <div class="col-md-3">
-                <div class="product-header">
-                    <img src="images/product1.png" alt="" class="img-fluid">
-                    <span><i class="fa fa-heart"></i></span>
-                    <span><i class="fa fa-shopping-cart"></i></span>
-                    <span><i class="fa fa-search"></i></span>
-                </div>
-                <div class="product-footer">
-                    <a href=""><h4>Boys T-shirt</h4></a>
-                    <div class="rating">
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     </div>
-                     <h4 class="price">$50</h4> 
-                     <a href="cart.html"><button class="btn btn-primary">Add to Cart</button></a>  
+                 <a href="cart.html"><button class="btn btn-primary addToCart"data-id= ${id}>Add to Cart</button></a>   
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="product-header">
-                    <img src="images/yellow1.jpg" alt="">
-                    <span><i class="fa fa-heart"></i></span>
-                    <span><i class="fa fa-shopping-cart"></i></span>
-                    <span><i class="fa fa-search"></i></span>
-                </div>
-                <div class="product-footer">
-                    <a href=""><h4>Boys T-shirt</h4></a>
-                    <div class="rating">
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     <i class="fa fa-star"></i>
-                     </div>
+                <div class="product-center">
+                    <img src="images/yellow1.jpg" alt="" class="img-fluid" width="150px">
                      <h4 class="price">$50</h4>
-                     <a href="cart.html"><button class="btn btn-primary">Add to Cart</button></a>   
+                 <a href="cart.html"><button class="btn btn-primary addToCart" data-id= ${id}>Add to Cart</button></a>   
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="product-center">
+                    <img src="images/yellow1.jpg" alt="" class="img-fluid" width="150px">
+                     <h4 class="price">$50</h4>
+                 <a href="cart.html"><button class="btn btn-primary addToCart" data-id= ${id}>Add to Cart</button></a>   
                 </div>
             </div>
             </div>
        </div>
+       <div class="container text-center bottom product2">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="product-center">
+                    <img src="images/product1.png" alt="" class="img-fluid" width="150px">>
+                     <h4 class="price">$40</h4>
+                 <a href="cart.html"><button class="btn btn-primary addToCart" data-id= ${id}>Add to Cart</button></a>   
+                </div>
+            </div>
+            <div class="col-md-3">
+             <div class="product-center">
+                 <img src="images/product1.png" alt="" class="img-fluid" width="150px">>
+                  <h4 class="price">$40</h4>
+              <a href="cart.html"><button class="btn btn-primary addToCart">Add to Cart</button></a>   
+             </div>
+         </div>
+         <div class="col-md-3">
+             <div class="product-center">
+                 <img src="images/product1.png" alt="" class="img-fluid" width="150px">>
+                  <h4 class="price">$40</h4>
+              <a href="cart.html"><button class="btn btn-primary addToCart">Add to Cart</button></a>   
+             </div>
+         </div>
+         <div class="col-md-3">
+             <div class="product-center">
+                 <img src="images/product1.png" alt="" class="img-fluid" width="150px">>
+                  <h4 class="price">$40</h4>
+              <a href="cart.html"><button class="btn btn-primary addToCart">Add to Cart</button></a>   
+             </div>
+         </div>
+         </div>
+    </div>
+
        <hr>
    </section>
 
@@ -197,15 +179,15 @@
     <div class="container text-center">
         <div class="row">
             <div class="col-md-6">
-                <img src="images/duo.png" alt="" class="img- fluid">
+                <img src="images/duo.png" alt="" class="img-fluid" width="300px">
             </div>
             <div class="col-md-6 cover">
                 <h1><span class="discount">70%</span> SALES OFF</h1>
                 <h2>
-                    <span>Summer Vibes</span>
-                    <span>Mode on</span>
+                    <span>Summer Vibes</span><br>
+                    <span>Grab Yours Now!</span>
                 </h2>
-        <a href=""><button class="btn btn-large btn-warning">Shop Now</button></a>
+                <a href=""><button class="btn btn-large btn-warning">Shop Now</button></a>
             </div>
         </div>
     </div>
@@ -274,6 +256,35 @@
         </div>
     </div>
  </footer>
+ <section>
+    <div class="container cart-overlay">
+        <div class="row">
+            <div class="col-12 cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>Your Cart</h2>
+            </div>
+            <div class="cart-item">
+                <img src="images/yellow1.jpg" alt="" class="img-fluid" width="80px">
+            </div>   
+            <div class="col-md-6 cart-content">
+                <h4>Yellow polo</h4>
+                <h5>$50</h5>
+                <span class="remove-item">remove</span>
+            </div>
+            <span>
+                <i class="fas fa-chevron-up"></i>
+                <p class="item-amount"></p>
+                <i class="fas fa-chevron-down"></i>
+            </span>
+        </div>
+        <div class="cart-footer">
+            <h3>Your total : $<span class="cart-total">0</span></h3>
+            <button class="btn btn-primary btn-large clear-cart">Clear Cart</button>
+        </div>
+    </div>
+</section>
     
     <script src="app.js"></script>
 </body>
