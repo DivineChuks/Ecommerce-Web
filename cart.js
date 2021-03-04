@@ -49,12 +49,12 @@ function showCartItems(){
     }
 
     for (const items of productCatalogue) {
-        let create = document.createElement("p");
+        let create = document.createElement("h6");
         let assign = document.createTextNode(`
            Product Name:${items.product}, Product Price:${items.price}, Product Quantity: ${items.quantity} 
         `);
         create.appendChild(assign);
-        var section = document.getElementById("cartBody");
+        var section = document.getElementById("cartCheckout");
         section.appendChild(create);
      
    }
