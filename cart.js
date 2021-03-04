@@ -28,7 +28,7 @@ function addGoods(id, product, price){
         if (productCatalogue[i].id == catalogue.id) {
             let catalogueList = {
                 id : catalogue.id,
-                product : items.product,
+                product : catalogue.product,
                 price: productCatalogue[i].price += price,
                 quantity : +productCatalogue[i].quantity + 1
             };
