@@ -179,13 +179,19 @@ img{
     /*transform: translateX(100%);*/
 }
 
-.showCart{
-    transform: ;
-}
+.cartSection{
 
-  .close-cart {
-    cursor: pointer;
-  }
+    width: 60%;
+    height: 580px;
+    background-color: #222;
+    position: absolute;
+    top: -1000px;
+    left: 20%;
+    transition: 0.5s;
+    display: none;
+
+
+}
 
   @media (max-width: 576px){
       .first-main{
